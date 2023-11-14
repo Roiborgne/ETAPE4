@@ -1,46 +1,50 @@
-body{
-    font-family: CourierNew, sans-serif;
+body {
+    font-family: "CourierNew", sans-serif;
     font-size: 12px;
-    text-align : justify;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left : 12px;
 }
+
 h1    {
     color: red;
     background-color: lightyellow;
     font-size: 20px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     text-align : center;
 }
 
 .grand-texte {
     font-size: 30px;
 }
+p {
+    font-family: "CourierNew", serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-indent: 12px;
+}
 
 .p1 {
     color: purple;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     text-align : center;
     margin-top:20px;
 }
 .p2 {
     color: purple;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     text-align : center;
     margin-top:40px
 }
 .p3 {
     font-size: 11px;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     margin-bottom:25px;
     margin-top:20px;
     text-indent : 20px;
-}
-h5{
-    color: blue;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    font-weight : bold;
 }
 .p4 {
     font-style : italic;
@@ -48,8 +52,34 @@ h5{
     font-family: "Times New Roman", sans-serif;
     margin: 10px 1cm 20px;
 }
+.p5{
+    font-style : italic;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left : 12px;
+}
 
 ul{
+    color: black;
     text-decoration : underline;
     font-size: 13px;
+}
+ol{
+    color: black;
+    font-weight : normal;
+}
+.listeNum{
+    color: blue;
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+    font-weight : bold;
+}
+
+
+.pfin{
+    color: lightblue ;
+    text-indent: 0;
+    margin-left : 0;
+    margin-top:10px;
+    margin-bottom:20px;
 }
