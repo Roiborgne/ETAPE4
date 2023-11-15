@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    color: white;
+}
+
+.article1{
+    background: dodgerblue url("pingouin.png") no-repeat left;
+    background-size: contain;
+    border: orangered dashed thick;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.article2{
+    background: green url("pingouin.png") no-repeat left;
+    background-size: contain;
+    border: orangered dashed thick;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.article3{
+    background: mediumpurple url("pingouin.png") no-repeat left;
+    background-size: contain;
+    border: orangered dashed thick;
+    margin-top:10px;
+    margin-bottom:20px;
+}
