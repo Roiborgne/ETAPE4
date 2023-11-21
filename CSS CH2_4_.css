@@ -5,24 +5,30 @@ body{
 
 .article1{
     background: dodgerblue url("pingouin.png") no-repeat left;
+    background-origin:border-box;
     background-size: contain;
     border: orangered dashed thick;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin:2em;
+    padding:1em;
 }
 
 .article2{
     background: green url("pingouin.png") no-repeat left;
+    background-origin:border-box;
+    background-clip: padding-box;
     background-size: contain;
     border: orangered dashed thick;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin:2em;
+    padding:1em;
 }
 
 .article3{
+    margin:2em;
+    padding:1em;
+    background-origin:border-box;
     background: mediumpurple url("pingouin.png") no-repeat left;
-    background-size: contain;
     border: orangered dashed thick;
-    margin-top:10px;
-    margin-bottom:20px;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-size: contain;
 }
