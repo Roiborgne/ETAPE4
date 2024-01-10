@@ -1,5 +1,5 @@
 body {
-    background: url("pingouin.png")no-repeat fixed top center, url("feuilles.png")  ;
+    background: url("image/pingouin.png")no-repeat fixed top center, url("image/feuilles.png")  ;
     color : white;
     font-size: 34px;
 }

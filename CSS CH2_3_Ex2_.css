@@ -14,7 +14,7 @@ cite{
 }
 body{
     background-color: darkolivegreen;
-    background-image: url("pingouin.png");
+    background-image: url("image/pingouin.png");
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: 1500px;
@@ -26,7 +26,7 @@ section{
 article{
     margin : 2em;
     background-color: rgba(255, 0, 0, 0.64);
-    background-image: url("pingouin.png");
+    background-image: url("image/pingouin.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;

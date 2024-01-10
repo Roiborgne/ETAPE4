@@ -4,7 +4,7 @@ body{
 }
 
 .article1{
-    background: dodgerblue url("pingouin.png") no-repeat left;
+    background: dodgerblue url("image/pingouin.png") no-repeat left;
     background-origin:border-box;
     background-size: contain;
     border: orangered dashed thick;
@@ -13,7 +13,7 @@ body{
 }
 
 .article2{
-    background: green url("pingouin.png") no-repeat left;
+    background: green url("image/pingouin.png") no-repeat left;
     background-origin:border-box;
     background-clip: padding-box;
     background-size: contain;
@@ -26,7 +26,7 @@ body{
     margin:2em;
     padding:1em;
     background-origin:border-box;
-    background: mediumpurple url("pingouin.png") no-repeat left;
+    background: mediumpurple url("image/pingouin.png") no-repeat left;
     border: orangered dashed thick;
     background-clip:content-box;
     background-origin:content-box;
